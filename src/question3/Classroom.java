@@ -14,8 +14,8 @@ public class Classroom {
 		
 		Student lee = new Student(7, "이민기", 3);
 		lee.test[0].setPoint("국어", 66);
-		lee.test[0].setPoint("영어", 22);
-		lee.test[0].setPoint("수학", 18);
+		lee.test[1].setPoint("영어", 22);
+		lee.test[2].setPoint("수학", 18);
 		lee.printScore();
 		
 	}
